@@ -3,7 +3,8 @@ BGC-Argo+ dataset store for :class:`argopy.ArgoFloat`.
 
 The BGC-Argo+ dataset (https://www.bgc-argo-plus.info) is a quality-controlled,
 outlier-removed version of BGC-Argo float data curated at SOEST / University of
-Hawaiʻi at Mānoa (Bushinsky et al, 2025, Bushinsky et al, submitted).  Individual float files are served on the SOEST FTP server::
+Hawaiʻi at Mānoa (Bushinsky et al, 2025, Bushinsky et al, submitted).  
+Individual float files are served on the SOEST FTP server::
 
     ftp://ftp.soest.hawaii.edu/bgc_argo_plus/outliers_removed/
 
