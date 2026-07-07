@@ -32,6 +32,17 @@ The BGC-Argo+ dataset (SOEST / University of Hawaiʻi at Mānoa) provides
 QC-processed, outlier-removed BGC-Argo float files served on the SOEST FTP
 server.  See :ref:`bgcargo_plus_store` for details.
 
+Internals
+^^^^^^^^^
+
+- **Update USA GDAC url** :issue:`624` (:pr:`624`) by |gmaze|.
+
+- **Fix bug** where by some unit tests would raise  `fsspec.exceptions.FSTimeoutError`, :issue:`593`. (:pr:`640`) by |gmaze|.
+
+Documentation
+^^^^^^^^^^^^^
+
+- **Define** a policy regarding **generative AI usage** in **argopy** contributions :issue:`637`. (:pr:`639`) by |quai20|.
 
 v1.4.0 (5 Jan. 2026)
 --------------------
